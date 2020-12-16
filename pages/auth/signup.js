@@ -36,7 +36,7 @@ const signup = () => {
 				/>
 			</div>
 			<div className="form-group">
-				<label htmlFor="password">Passoword</label>
+				<label htmlFor="password">Password</label>
 				<input
 					value={password}
 					onChange={(e) => setPassword(e.target.value)}
